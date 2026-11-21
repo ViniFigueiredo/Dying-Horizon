@@ -1,0 +1,6 @@
+﻿<Solution>
+  <Project Path="Unity.2D.Welcome.csproj" />
+  <Project Path="LiveOps.csproj" />
+  <Project Path="PlayerAuthentication.csproj" />
+  <Project Path="PlayerSave.csproj" />
+</Solution>
