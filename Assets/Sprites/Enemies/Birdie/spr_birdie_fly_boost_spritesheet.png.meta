@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 57a0446175f4c76f083d0959e73d959e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7195976705433301876
+    second: spr_birdie_fly_boost_spritesheet_0
+  - first:
+      213: 6493725627153138924
+    second: spr_birdie_fly_boost_spritesheet_1
+  - first:
+      213: 3120710737348832541
+    second: spr_birdie_fly_boost_spritesheet_2
+  - first:
+      213: -206021513941700148
+    second: spr_birdie_fly_boost_spritesheet_3
+  - first:
+      213: 8557240130313617559
+    second: spr_birdie_fly_boost_spritesheet_4
+  - first:
+      213: -1933614008976131252
+    second: spr_birdie_fly_boost_spritesheet_5
+  - first:
+      213: 8187549010649551995
+    second: spr_birdie_fly_boost_spritesheet_6
+  - first:
+      213: -6370278952523101579
+    second: spr_birdie_fly_boost_spritesheet_7
+  - first:
+      213: -1267706389905855707
+    second: spr_birdie_fly_boost_spritesheet_8
+  - first:
+      213: -951730459807374921
+    second: spr_birdie_fly_boost_spritesheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_birdie_fly_boost_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 158
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473765b00be3dd360800000000000000
+      internalID: 7195976705433301876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_birdie_fly_boost_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 159
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4405b7d095e1a50800000000000000
+      internalID: 6493725627153138924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_birdie_fly_boost_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 159
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1dac62a1edfe4b20800000000000000
+      internalID: 3120710737348832541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_birdie_fly_boost_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 176
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1ba6d4680142df0800000000000000
+      internalID: -206021513941700148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_birdie_fly_boost_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 159
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7908f017f8c61c670800000000000000
+      internalID: 8557240130313617559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_birdie_fly_boost_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 167
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b3246bd4c6a25e0800000000000000
+      internalID: -1933614008976131252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_birdie_fly_boost_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 66
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b741ed8127400a170800000000000000
+      internalID: 8187549010649551995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_birdie_fly_boost_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 73
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a86ba3b093897a0800000000000000
+      internalID: -6370278952523101579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_birdie_fly_boost_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 73
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b2b2641c3386ee0800000000000000
+      internalID: -1267706389905855707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_birdie_fly_boost_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 60
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b123457036cac2f0800000000000000
+      internalID: -951730459807374921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_birdie_fly_boost_spritesheet_0: 7195976705433301876
+      spr_birdie_fly_boost_spritesheet_1: 6493725627153138924
+      spr_birdie_fly_boost_spritesheet_2: 3120710737348832541
+      spr_birdie_fly_boost_spritesheet_3: -206021513941700148
+      spr_birdie_fly_boost_spritesheet_4: 8557240130313617559
+      spr_birdie_fly_boost_spritesheet_5: -1933614008976131252
+      spr_birdie_fly_boost_spritesheet_6: 8187549010649551995
+      spr_birdie_fly_boost_spritesheet_7: -6370278952523101579
+      spr_birdie_fly_boost_spritesheet_8: -1267706389905855707
+      spr_birdie_fly_boost_spritesheet_9: -951730459807374921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,13 +9,22 @@ namespace DyingHorizon
         public TextMeshProUGUI goalText;
         public TextMeshProUGUI healthText;
         public TextMeshProUGUI statusText;
+        public TextMeshProUGUI controlsText;
 
         [Header("Panels")]
         public GameObject winPanel;
         public GameObject losePanel;
 
+        private PlayerController2D playerController;
+
         private void Start()
         {
+            var player = GameObject.FindWithTag("Player");
+            if (player != null)
+            {
+                playerController = player.GetComponent<PlayerController2D>();
+            }
+
             if (GameLoop.Instance != null)
             {
                 GameLoop.Instance.OnStateChanged += HandleStateChanged;
@@ -43,6 +52,12 @@ namespace DyingHorizon
             if (GameLoop.Instance != null && statusText != null)
             {
                 statusText.text = $"Fome: {GameLoop.Instance.hunger:0}% | Sede: {GameLoop.Instance.thirst:0}% | Radiação: {GameLoop.Instance.radiation:0}%";
+            }
+
+            if (controlsText != null && playerController != null)
+            {
+                string mode = playerController.IsAutoDemo ? "AUTO-DEMO" : "MANUAL";
+                controlsText.text = $"Modo: <b>{mode}</b> | [WASD / Setas] Mover | [Tab] Alternar Auto-Demo | [R] Reiniciar";
             }
         }
 

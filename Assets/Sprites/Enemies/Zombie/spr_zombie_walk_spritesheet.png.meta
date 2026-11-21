@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: 0d6f96e4f1ea9317bb3aa6640a4f9d6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -99313235142196112
+    second: spr_zombie_walk_spritesheet_0
+  - first:
+      213: -4261374039850186222
+    second: spr_zombie_walk_spritesheet_1
+  - first:
+      213: 4351266089175348768
+    second: spr_zombie_walk_spritesheet_2
+  - first:
+      213: -6148649222516859413
+    second: spr_zombie_walk_spritesheet_3
+  - first:
+      213: -7100313856527895027
+    second: spr_zombie_walk_spritesheet_4
+  - first:
+      213: 1182456843684012032
+    second: spr_zombie_walk_spritesheet_5
+  - first:
+      213: -3669316110381342915
+    second: spr_zombie_walk_spritesheet_6
+  - first:
+      213: 830849386240102515
+    second: spr_zombie_walk_spritesheet_7
+  - first:
+      213: -5996573708443545049
+    second: spr_zombie_walk_spritesheet_8
+  - first:
+      213: 7363098971547668304
+    second: spr_zombie_walk_spritesheet_9
+  - first:
+      213: -8640521196954353704
+    second: spr_zombie_walk_spritesheet_10
+  - first:
+      213: -7792764913864849426
+    second: spr_zombie_walk_spritesheet_11
+  - first:
+      213: 1717287684397281809
+    second: spr_zombie_walk_spritesheet_12
+  - first:
+      213: -5316095156312445057
+    second: spr_zombie_walk_spritesheet_13
+  - first:
+      213: 5225848482950732037
+    second: spr_zombie_walk_spritesheet_14
+  - first:
+      213: -2267727773841996091
+    second: spr_zombie_walk_spritesheet_15
+  - first:
+      213: 8965725713713508611
+    second: spr_zombie_walk_spritesheet_16
+  - first:
+      213: -693135585438792981
+    second: spr_zombie_walk_spritesheet_17
+  - first:
+      213: -8543581252033719663
+    second: spr_zombie_walk_spritesheet_18
+  - first:
+      213: -8566285500825687221
+    second: spr_zombie_walk_spritesheet_19
+  - first:
+      213: -6923752196217865513
+    second: spr_zombie_walk_spritesheet_20
+  - first:
+      213: 8131894084568022536
+    second: spr_zombie_walk_spritesheet_21
+  - first:
+      213: -5285112857408153467
+    second: spr_zombie_walk_spritesheet_22
+  - first:
+      213: 6726787169183304035
+    second: spr_zombie_walk_spritesheet_23
+  - first:
+      213: 1561522135584100502
+    second: spr_zombie_walk_spritesheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1049
+        width: 124
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074cad9832b2f9ef0800000000000000
+      internalID: -99313235142196112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1048
+        width: 127
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a88a373ee8cd4c0800000000000000
+      internalID: -4261374039850186222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1048
+        width: 114
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026ff70447dc26c30800000000000000
+      internalID: 4351266089175348768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1048
+        width: 114
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed966beb1c9baaa0800000000000000
+      internalID: -6148649222516859413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1049
+        width: 125
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06fed3aa2e967d90800000000000000
+      internalID: -7100313856527895027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 792
+        width: 120
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000e3020c3ee86010800000000000000
+      internalID: 1182456843684012032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 792
+        width: 114
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f1a104078f31dc0800000000000000
+      internalID: -3669316110381342915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 793
+        width: 130
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37051b06d15c78b00800000000000000
+      internalID: 830849386240102515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 792
+        width: 127
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72296cebbf3e7cca0800000000000000
+      internalID: -5996573708443545049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 792
+        width: 114
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f8425d08bfe2660800000000000000
+      internalID: 7363098971547668304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 537
+        width: 123
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df7d4530c3b61880800000000000000
+      internalID: -8640521196954353704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 536
+        width: 126
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee745f249998ad390800000000000000
+      internalID: -7792764913864849426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 536
+        width: 114
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11237a5ec0805d710800000000000000
+      internalID: 1717287684397281809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 537
+        width: 120
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f62d70f9f6936b0800000000000000
+      internalID: -5316095156312445057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 537
+        width: 126
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509da4ce181f58840800000000000000
+      internalID: 5225848482950732037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 280
+        width: 114
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c64cd8ca996780e0800000000000000
+      internalID: -2267727773841996091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 280
+        width: 115
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301ba7fb808ac6c70800000000000000
+      internalID: 8965725713713508611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 283
+        width: 131
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be20db08bdc7166f0800000000000000
+      internalID: -693135585438792981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 280
+        width: 125
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192d7dafd1a1f6980800000000000000
+      internalID: -8543581252033719663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 280
+        width: 113
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ba4be19b07e1980800000000000000
+      internalID: -8566285500825687221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 25
+        width: 124
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da7a97af04e9ef90800000000000000
+      internalID: -6923752196217865513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 24
+        width: 124
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ef6c5d59a4ad070800000000000000
+      internalID: 8131894084568022536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 24
+        width: 114
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5885650abd187a6b0800000000000000
+      internalID: -5285112857408153467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 24
+        width: 123
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36983d25a495a5d50800000000000000
+      internalID: 6726787169183304035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_zombie_walk_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 25
+        width: 130
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6905668eb14aba510800000000000000
+      internalID: 1561522135584100502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_zombie_walk_spritesheet_0: -99313235142196112
+      spr_zombie_walk_spritesheet_1: -4261374039850186222
+      spr_zombie_walk_spritesheet_10: -8640521196954353704
+      spr_zombie_walk_spritesheet_11: -7792764913864849426
+      spr_zombie_walk_spritesheet_12: 1717287684397281809
+      spr_zombie_walk_spritesheet_13: -5316095156312445057
+      spr_zombie_walk_spritesheet_14: 5225848482950732037
+      spr_zombie_walk_spritesheet_15: -2267727773841996091
+      spr_zombie_walk_spritesheet_16: 8965725713713508611
+      spr_zombie_walk_spritesheet_17: -693135585438792981
+      spr_zombie_walk_spritesheet_18: -8543581252033719663
+      spr_zombie_walk_spritesheet_19: -8566285500825687221
+      spr_zombie_walk_spritesheet_2: 4351266089175348768
+      spr_zombie_walk_spritesheet_20: -6923752196217865513
+      spr_zombie_walk_spritesheet_21: 8131894084568022536
+      spr_zombie_walk_spritesheet_22: -5285112857408153467
+      spr_zombie_walk_spritesheet_23: 6726787169183304035
+      spr_zombie_walk_spritesheet_24: 1561522135584100502
+      spr_zombie_walk_spritesheet_3: -6148649222516859413
+      spr_zombie_walk_spritesheet_4: -7100313856527895027
+      spr_zombie_walk_spritesheet_5: 1182456843684012032
+      spr_zombie_walk_spritesheet_6: -3669316110381342915
+      spr_zombie_walk_spritesheet_7: 830849386240102515
+      spr_zombie_walk_spritesheet_8: -5996573708443545049
+      spr_zombie_walk_spritesheet_9: 7363098971547668304
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
