@@ -7,7 +7,7 @@ namespace DyingHorizon
     {
         [Header("Movement")]
         [SerializeField] private float moveSpeed = 4.5f;
-        [SerializeField] private bool autoDemo = true;
+        [SerializeField] private bool autoDemo = false;
 
         [Header("8-Bit Walk Animation")]
         public Sprite[] walkSprites;
@@ -19,7 +19,7 @@ namespace DyingHorizon
         private float animTimer;
         private int animIndex;
 
-        private readonly Vector2[] demoWaypoints = new Vector2[]
+        private Vector2[] demoWaypoints = new Vector2[]
         {
             new Vector2(2.5f, 1.8f),
             new Vector2(-2.0f, 1.5f),
@@ -31,6 +31,13 @@ namespace DyingHorizon
 
         public Vector2 CurrentVelocity => rb != null ? rb.linearVelocity : Vector2.zero;
         public bool IsAutoDemo => autoDemo;
+
+        public void SetDemoWaypoints(Vector2[] waypoints)
+        {
+            if (waypoints == null || waypoints.Length == 0) return;
+            demoWaypoints = waypoints;
+            waypointIndex = 0;
+        }
 
         private void Awake()
         {
@@ -59,18 +66,40 @@ namespace DyingHorizon
                 if (kb.tabKey.wasPressedThisFrame) tabPressed = true;
                 float h = 0f;
                 float v = 0f;
+                // Controles Primários: WASD
                 if (kb.wKey.isPressed || kb.upArrowKey.isPressed) v += 1f;
                 if (kb.sKey.isPressed || kb.downArrowKey.isPressed) v -= 1f;
                 if (kb.aKey.isPressed || kb.leftArrowKey.isPressed) h -= 1f;
                 if (kb.dKey.isPressed || kb.rightArrowKey.isPressed) h += 1f;
-                manualInput = new Vector2(h, v).normalized;
+                manualInput = new Vector2(h, v);
             }
-#else
-            if (Input.GetKeyDown(KeyCode.Tab)) tabPressed = true;
-            float h = Input.GetAxisRaw("Horizontal");
-            float v = Input.GetAxisRaw("Vertical");
-            manualInput = new Vector2(h, v).normalized;
 #endif
+
+            // Fallback para Input Manager clássico caso necessário
+            if (manualInput.sqrMagnitude < 0.01f)
+            {
+                try
+                {
+                    if (Input.GetKeyDown(KeyCode.Tab)) tabPressed = true;
+                    float h = 0f;
+                    float v = 0f;
+                    if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) v += 1f;
+                    if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) v -= 1f;
+                    if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) h -= 1f;
+                    if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) h += 1f;
+                    if (Mathf.Abs(h) > 0.01f || Mathf.Abs(v) > 0.01f)
+                    {
+                        manualInput = new Vector2(h, v);
+                    }
+                }
+                catch { /* Ignora se o Input Manager legado não estiver ativo */ }
+            }
+
+            // Normalização do vetor para velocidade idêntica em diagonais
+            if (manualInput.sqrMagnitude > 0.01f)
+            {
+                manualInput = manualInput.normalized;
+            }
 
             if (tabPressed)
             {
@@ -99,9 +128,13 @@ namespace DyingHorizon
                 moveInput = Vector2.zero;
             }
 
-            if (Mathf.Abs(moveInput.x) > 0.05f && spriteRenderer != null)
+            if (moveInput.x < -0.05f && spriteRenderer != null)
             {
-                spriteRenderer.flipX = moveInput.x < 0f;
+                spriteRenderer.flipX = true;
+            }
+            else if (moveInput.x > 0.05f && spriteRenderer != null)
+            {
+                spriteRenderer.flipX = false;
             }
 
             UpdateAnimation(moveInput.sqrMagnitude > 0.01f);

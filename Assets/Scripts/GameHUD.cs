@@ -16,6 +16,7 @@ namespace DyingHorizon
         public GameObject losePanel;
 
         private PlayerController2D playerController;
+        private WeaponController2D weaponController;
 
         private void Start()
         {
@@ -23,6 +24,7 @@ namespace DyingHorizon
             if (player != null)
             {
                 playerController = player.GetComponent<PlayerController2D>();
+                weaponController = player.GetComponent<WeaponController2D>();
             }
 
             if (GameLoop.Instance != null)
@@ -51,13 +53,19 @@ namespace DyingHorizon
         {
             if (GameLoop.Instance != null && statusText != null)
             {
-                statusText.text = $"Fome: {GameLoop.Instance.hunger:0}% | Sede: {GameLoop.Instance.thirst:0}% | Radiação: {GameLoop.Instance.radiation:0}%";
+                string weaponInfo = "Desarmado ([1][2][3] Equipar)";
+                if (weaponController != null && weaponController.CurrentWeapon != null)
+                {
+                    var w = weaponController.CurrentWeapon;
+                    weaponInfo = $"Arma: <b>{w.name}</b> [{w.currentAmmo}/{w.reserveAmmo}]";
+                }
+                statusText.text = $"Fome: {GameLoop.Instance.hunger:0}% | Sede: {GameLoop.Instance.thirst:0}% | Radiação: {GameLoop.Instance.radiation:0}%\n{weaponInfo}";
             }
 
             if (controlsText != null && playerController != null)
             {
-                string mode = playerController.IsAutoDemo ? "AUTO-DEMO" : "MANUAL";
-                controlsText.text = $"Modo: <b>{mode}</b> | [WASD / Setas] Mover | [Tab] Alternar Auto-Demo | [R] Reiniciar";
+                string demoTag = playerController.IsAutoDemo ? " | <color=#FFDD55>[Tab] Auto-Demo ATIVADO</color>" : "";
+                controlsText.text = $"<b>[WASD]</b> Mover | <b>[Mouse + Clique]</b> Mirar e Atirar | <b>[1]</b> Pistola <b>[2]</b> Escopeta <b>[3]</b> Fuzil <b>[0]</b> Guardar | <b>[R]</b> Reiniciar{demoTag}";
             }
         }
 
