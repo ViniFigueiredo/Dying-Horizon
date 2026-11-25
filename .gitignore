@@ -29,6 +29,31 @@
 .DS_Store
 Thumbs.db
 
-# Environment / Secrets
+# Environment / Secrets & API Keys (Trello, Gemini, PixelLab, etc.)
 .env
 .env.*
+!.env.example
+*.env
+*secret*
+*secrets*
+*apikey*
+*api_key*
+*api-key*
+*token*
+*credentials*
+*trello*.json
+*trello*.txt
+*trello*.env
+*pixellab*.json
+*pixellab*.txt
+*gemini*.json
+*gemini*.txt
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+service-account*.json
+client_secret*.json
+mcp*.json
